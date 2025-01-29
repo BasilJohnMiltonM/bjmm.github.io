@@ -66,10 +66,6 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.project {
-    margin-bottom: 20px;
-}
-
 a {
     color: #007acc;
     text-decoration: none;
@@ -106,6 +102,40 @@ footer {
     width: 100%;
 }
 
+/* Navigation Bar Styling */
+nav {
+    background: #002855;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background: #00509e;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     h1 {
@@ -129,5 +159,16 @@ footer {
     .graduation-pic {
         max-width: 80%;
         margin: 20px auto;
+    }
+
+    /* Adjust navigation for small screens */
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav ul li a {
+        display: block;
+        text-align: center;
     }
 }
