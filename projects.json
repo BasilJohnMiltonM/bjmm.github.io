@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Data Analysis Dashboard",
+    "description": "Interactive dashboard built with Python and Tableau to visualize key metrics."
+  },
+  {
+    "title": "Machine Learning Pipeline",
+    "description": "Automated ML pipeline for data preprocessing and model training using scikit-learn."
+  },
+  {
+    "title": "AI Agent Prototype",
+    "description": "Experimental AI agent designed to streamline data workflows and generate insights."
+  }
+]
