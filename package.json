@@ -1,0 +1,19 @@
+{
+  "name": "bjmm.github.io",
+  "version": "1.0.0",
+  "description": "This repository hosts my personal portfolio website.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
