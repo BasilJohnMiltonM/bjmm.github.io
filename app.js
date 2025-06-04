@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Fetch the static JSON file so the site works on GitHub Pages
   fetch('projects.json')
-
     .then(response => response.json())
     .then(data => {
       const list = document.createElement('ul');
