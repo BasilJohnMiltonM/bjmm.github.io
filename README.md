@@ -65,77 +65,18 @@ I'm a passionate **Data Scientist** with expertise in machine learning, deep lea
 - **Mobile Optimized** - Perfect experience on all screen sizes
 - **Accessibility** - WCAG compliant design
 
-## 🚀 Getting Started
+## 📁 Repository Structure
 
-### Prerequisites
-- Node.js (v16 or higher)
-- npm or yarn package manager
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/BasilJohnMiltonM/bjmm_portfolio.git
-   cd bjmm_portfolio
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
-
-3. **Start development server**
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   ```
-
-4. **Open your browser**
-   Navigate to `http://localhost:5173`
-
-### Build for Production
-
-```bash
-npm run build
-# or
-yarn build
-```
-
-### Preview Production Build
-
-```bash
-npm run preview
-# or
-yarn preview
-```
-
-## 📁 Project Structure
+This repository contains the deployed version of my portfolio website. The source code and development files are maintained in a separate private repository.
 
 ```
 bjmm_portfolio/
-├── public/                 # Static assets
-│   ├── images/            # Project images
-│   └── favicon.ico        # Site favicon
-├── src/
-│   ├── components/        # React components
-│   │   ├── ui/           # Shadcn/ui components
-│   │   ├── About.tsx     # About section
-│   │   ├── Contact.tsx   # Contact section
-│   │   ├── Hero.tsx      # Hero section
-│   │   ├── Navbar.tsx    # Navigation
-│   │   ├── Projects.tsx  # Projects showcase
-│   │   └── TechStack.tsx # Skills section
-│   ├── hooks/            # Custom React hooks
-│   ├── lib/              # Utility functions
-│   ├── pages/            # Page components
-│   ├── App.tsx           # Main app component
-│   └── main.tsx          # App entry point
-├── tailwind.config.ts    # Tailwind configuration
-├── vite.config.ts        # Vite configuration
-└── package.json          # Dependencies and scripts
+├── assets/                 # Built assets (CSS, JS, images)
+│   ├── index-*.js         # Main JavaScript bundle
+│   ├── index-*.css        # Main CSS bundle
+│   └── images/            # Optimized project images
+├── index.html             # Main HTML file
+└── README.md              # This file
 ```
 
 ## 🎯 Featured Projects
@@ -162,19 +103,32 @@ bjmm_portfolio/
 
 ## 🌐 Deployment
 
-This portfolio is deployed on **GitHub Pages** using the following workflow:
+This portfolio is deployed on **GitHub Pages** and serves as the live version of my portfolio website. The site is automatically updated when changes are pushed to the main branch.
 
-1. **Build the project**: `npm run build`
-2. **Deploy to GitHub Pages**: The site is automatically deployed when changes are pushed to the main branch
-3. **Custom Domain**: Configured with GitHub Pages for seamless hosting
+### Deployment Details
+- **Platform**: GitHub Pages
+- **Build Tool**: Vite
+- **Framework**: React + TypeScript
+- **Styling**: Tailwind CSS + Shadcn/ui
+- **Domain**: https://basiljohnmiltonm.github.io/bjmm_portfolio/
 
-## 🤝 Contributing
+## 🔧 Development
 
-While this is my personal portfolio, I welcome feedback and suggestions! Feel free to:
+The source code for this portfolio is maintained in a separate private repository. The development workflow includes:
 
-- 🐛 Report bugs or issues
-- 💡 Suggest improvements
+1. **Local Development**: React + Vite development server
+2. **Build Process**: Vite build optimization
+3. **Deployment**: Automatic deployment to GitHub Pages
+4. **Updates**: Regular content and feature updates
+
+## 🤝 Feedback & Suggestions
+
+I welcome feedback and suggestions for improving this portfolio! Feel free to:
+
+- 🐛 Report any issues you encounter
+- 💡 Suggest improvements or new features
 - ⭐ Star the repository if you find it helpful
+- 📧 Reach out directly via email or LinkedIn
 
 ## 📞 Contact
 
@@ -192,10 +146,12 @@ This project is open source and available under the [MIT License](LICENSE).
 - **Tailwind CSS** - For the utility-first styling approach
 - **Vite** - For the fast development experience
 - **React Community** - For the amazing ecosystem
+- **GitHub Pages** - For reliable hosting
 
 ---
 
 <div align="center">
   <p>Made with ❤️ by <strong>Basil John Milton Muthuraj</strong></p>
   <p>🚀 Built with React, TypeScript, and Tailwind CSS</p>
+  <p>📧 <a href="mailto:bjmm1296@gmail.com">Get in touch</a> | 💼 <a href="https://linkedin.com/in/bjmm1296">Connect on LinkedIn</a></p>
 </div>
